@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">bangdai</string>
+    <string name="btn_login">登录</string>
+    <string name="hint_userid">请输入账号</string>
+    <string name="hint_password">请输入密码</string>
+    <string name="btn_webservice">web请求</string>
+    <string name="menu_one">第一个功能</string>
+    <string name="menu_two">第二个功能</string>
+    <string name="menu_three">第三个功能</string>
+    <string name="btn_add">提交</string>
+    <string name="endpoint">http://10.142.113.149:8001/WebService1.asmx</string>
+    <string name="processing_send">已发送</string>
+    <string name="processing_receive">已接受</string>
+</resources>

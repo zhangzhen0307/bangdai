@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="edu.whut.zhangzhen.bangdai.LoginActivity">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edt_userid"
+        android:hint="@string/hint_userid"
+        android:text="0121503490211"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edt_password"
+        android:hint="@string/hint_password"
+        android:inputType="numberPassword"
+        android:text="199837"/>
+    <Button
+        android:layout_width="100px"
+        android:layout_height="50px"
+        android:id="@+id/btn_confirm"
+        android:text="@string/btn_login"/>
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
